@@ -1,0 +1,75 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    margin-top:100px;
+}
+h2{
+    text-align: center;
+}
+.bandera-argentina{
+    width:300px;
+    height:200px;
+    box-shadow: 1px 1px 5px #cccccc;
+    margin:0 auto;
+}
+/*bandera argentina*/
+.franja-celeste, .franja-blanca{
+    width:300px;
+    height:66px;
+    background-color:blue;
+}
+.franja-blanca{
+    background-color:white;
+}
+/*bandera mexico*/
+.bandera-mexico{
+    width:300px;
+    margin:0 auto;
+    box-shadow: 1px 1px 5px #cccccc;
+    height:200px;
+}
+.franja-verde{
+    width:100px;
+    height: 200px;
+    background-color:green;
+    float: left;
+}
+.franja-blanca-mexico{
+    width:100px;
+    height: 200px;
+    background-color:white;
+    float: left;
+}
+.franja-roja{
+    background-color:red;
+    width:100px;
+    height: 200px;
+    float: left;
+
+}
+/*francia*/
+.francia .bandera-francia{
+    width:300px;
+    height:200px;
+    box-shadow: 1px 1px 5px #cccccc;
+    margin:0 auto;
+}
+.francia .bandera-francia .franja-azul{
+    background-color:blue;
+    width:100px;
+    height: 200px;
+    float: left;
+}
+.francia .bandera-francia .franja-blanca{
+    background-color:white;
+    width:100px;
+    height: 200px;
+    float: left;
+}
+.francia .bandera-francia .franja-roja{
+    background-color:red;
+    width:100px;
+    height: 200px;
+    float: left;
+}
