@@ -7,7 +7,7 @@ section{
 h2{
     text-align: center;
 }
-.bandera-argentina{
+.bandera-argentina, .bandera-alemania{
     width:300px;
     height:200px;
     box-shadow: 1px 1px 5px #cccccc;
@@ -74,3 +74,14 @@ h2{
     float: left;
 }
 /*alemania*/
+.bandera-alemania{
+    background-color: red;
+}
+.bandera-alemania .franja-negra, .bandera-alemania .franja-roja, .bandera-alemania .franja-amarillo{
+    background-color: black;
+    width:300px;
+    height:66px;
+}
+.bandera-alemania .franja-roja{
+    background-color: yellow;
+}
